@@ -8,3 +8,6 @@ body.eight-bit {
   cursor: url("../nat927.png"), auto;
   font-family: "8-Bit-Madness";
 }
+body.eight-bit #header {
+  background-color: #c4801f;
+}
