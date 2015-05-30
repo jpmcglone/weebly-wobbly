@@ -1,4 +1,10 @@
+@font-face {
+  font-family: "8-Bit-Madness";
+  src: url("../8-Bit-Madness.ttf");
+}
 body.eight-bit {
   background-color: #c4801f;
   color: #b6c493;
+  cursor: url("../nat927.png"), auto;
+  font-family: "8-Bit-Madness";
 }
