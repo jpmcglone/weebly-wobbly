@@ -15,4 +15,6 @@ this will generate a `./stylus/new_theme.css` file
 
 add an import in `main_style.css` like
 
-    @import url('stylus/new_theme.css')
+    @import url(stylus/8-bit.css);
+
+near the top after the *variables* section
