@@ -10,6 +10,6 @@ jQuery(function($) {
 	}
 	
 	$(document).ready(function() {
-		tableFlip()
+		//tableFlip()
     });
 });
