@@ -1,4 +1,3 @@
-
 jQuery(function($) {
     console.log("doc ready!");
     
@@ -11,6 +10,6 @@ jQuery(function($) {
 	}
 	
 	$(document).ready(function() {
-		tableFlip()
+		//tableFlip()
     });
 });
