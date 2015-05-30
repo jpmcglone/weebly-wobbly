@@ -5,8 +5,11 @@ jQuery(function($) {
         console.log("Table Flip!");
         // TODO: show table flip guy first
         setTimeout(function() {
-		  $("div").addClass("box_rotate box_transition")
-        }, 800);
+          $("#banner").addClass("table-flip")
+          setTimeout(function() {
+		      $("div").addClass("box_rotate box_transition")
+          }, 250);
+        }, 2000);
 	}
 	
 	$(document).ready(function() {
