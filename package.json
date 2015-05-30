@@ -1,0 +1,23 @@
+{
+  "name": "weebly-wobbly",
+  "version": "1.0.0",
+  "description": "theme for hackathon",
+  "main": "custom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylus": "stylus ./stylus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpmcglone/weebly-wobbly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpmcglone/weebly-wobbly/issues"
+  },
+  "homepage": "https://github.com/jpmcglone/weebly-wobbly",
+  "dependencies": {
+    "stylus": "^0.51.1"
+  }
+}
