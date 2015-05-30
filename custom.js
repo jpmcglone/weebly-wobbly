@@ -1,5 +1,4 @@
 jQuery(function($) {
-
   // Define Theme specific functions
   var Theme = {
     // Anchored Header with Waypoints.js
