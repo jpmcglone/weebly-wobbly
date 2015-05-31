@@ -3,18 +3,18 @@
   src: url("8-Bit-Madness.ttf");
 }
 body.eight-bit {
-  background-color: #c4801f;
-  color: #b6c493;
+  background-color: #FE0000;
+  color: #FFE503;
   cursor: url("http://www.rw-designer.com/cursor-view/7069.gif"), auto;
   font-family: "8-Bit-Madness";
 }
 body.eight-bit #header,
 body.eight-bit #mobile-nav {
-  background-color: #c4801f;
-  color: #b6c493;
+  background-color: #49FD01;
+  color: #FE9EBB;
 }
 body.eight-bit a {
-  color: #b6c493;
+  color: #FF7E00;
 }
 body.eight-bit ul,
 body.eight-bit ol,
