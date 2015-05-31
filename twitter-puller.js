@@ -21,7 +21,7 @@ jQuery(function($) {
 		if (string == 'wobbly8bit') {
 			changer('eight-bit', null, null);
 		} else if (string == 'wobblyrickroll') {
-			changer('rickroll', null, null);
+			changer('rick-roll', null, null);
 		}
 	}
 
