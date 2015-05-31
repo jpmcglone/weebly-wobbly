@@ -11,11 +11,13 @@ jQuery(function($) {
 		      $("div").addClass("box_rotate box_transition");
           }, 250);
         }, 3750);
+    window.setTimeout(undoTableFlip, 15000);
 	}
     
     function undoTableFlip() {
         $("#banner").removeClass("table-flip");
         $("div").removeClass("box_rotate box_transition");
+        changer('');
     }
 	
 //	$(document).ready(function() {
