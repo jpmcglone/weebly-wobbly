@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "kitty-font";
+  src: url("kitty-font.tff");
+}
 body.kitty {
   background-color: #c4801f;
   color: #b6c493;
@@ -35,7 +39,7 @@ body.kitty img {
 }
 
 body.kitty #banner .banner-content {
-  background-image: url("http://cdn.meme.am/images/7342111.jpg");
+  background-image: url("http://i.imgur.com/hcKkHLV.jpg");
 }
 body.kitty #wsite-content h2 {
   font-size: 4em;
