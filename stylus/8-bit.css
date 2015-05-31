@@ -5,6 +5,35 @@
 body.eight-bit {
   background-color: #c4801f;
   color: #b6c493;
-  cursor: url("../nat927.png"), auto;
+  cursor: url("../images/nat927.png"), auto;
+  font-family: "8-Bit-Madness";
+}
+body.eight-bit #header,
+body.eight-bit #mobile-nav {
+  background-color: #c4801f;
+  color: #b6c493;
+}
+body.eight-bit a {
+  color: #b6c493;
+}
+body.eight-bit ul,
+body.eight-bit ol,
+body.eight-bit li,
+body.eight-bit h1,
+body.eight-bit h2,
+body.eight-bit h3,
+body.eight-bit h4,
+body.eight-bit h5,
+body.eight-bit h6,
+body.eight-bit pre,
+body.eight-bit form,
+body.eight-bit body,
+body.eight-bit html,
+body.eight-bit p,
+body.eight-bit blockquote,
+body.eight-bit fieldset,
+body.eight-bit input,
+body.eight-bit iframe,
+body.eight-bit img {
   font-family: "8-Bit-Madness";
 }

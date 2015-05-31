@@ -1,6 +1,5 @@
 jQuery(function($) {
-    console.log("doc ready!");
-    
+
 	function tableFlip() {
         console.log("Table Flip!");
         var audio = new Audio('doitlive.mp3');
@@ -20,8 +19,8 @@ jQuery(function($) {
     }
 	
 	$(document).ready(function() {
-		//tableFlip()
-        
+//		tableFlip()
+//        
 //        setTimeout(function() {
 //            undoTableFlip()
 //        }, 4000);
