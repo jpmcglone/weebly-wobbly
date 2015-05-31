@@ -28,7 +28,7 @@ jQuery(function($) {
      //                 data.username + " tweeted: " + data.message_text + 
      //                 '</div>')
     window.setTimeout(function() {
-      $('marquee#twitter-user').remove()
+      $('#twitter-user').remove()
     }, 15000)
   }
 
