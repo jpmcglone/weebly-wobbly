@@ -21,9 +21,12 @@ jQuery(function($) {
   function showTweet(data) {
     console.log("show tweet")
 
-    $('body').append('<div id="twitter-user" style="position: fixed; left: 0; bottom: 10px; width: 300px; height: 50px; font-size: 30px;">' +
-                     data.username + " tweeted: " + data.message_text + 
-                     '</div>')
+    $('body').append('<marquee id="twitter-user" behavior="scroll" direction="left" scrollamount="9" style="color: dodgerblue; text-transform: uppercase; font-size: 45px; font-weight: bold; margin-bottom: 30px;">' + 
+    	data.username + " tweeted: " + data.message_text + '</marquee>');
+
+    	// '<div id="twitter-user" style="position: fixed; left: 0; bottom: 10px; width: 300px; height: 50px; font-size: 30px;">' +
+     //                 data.username + " tweeted: " + data.message_text + 
+     //                 '</div>')
     window.setTimeout(function() {
       $('div#twitter-user').remove()
     }, 15000)
