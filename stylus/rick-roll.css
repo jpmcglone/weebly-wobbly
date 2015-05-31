@@ -1,4 +1,34 @@
 body.rick-roll {
   background-color: #decc80;
   color: #c83018;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body.rick-roll #header,
+body.rick-roll #mobile-nav {
+  background-color: #decc80;
+  color: #c83018;
+}
+body.rick-roll a {
+  color: #decc80;
+}
+body.rick-roll ul,
+body.rick-roll ol,
+body.rick-roll li,
+body.rick-roll h1,
+body.rick-roll h2,
+body.rick-roll h3,
+body.rick-roll h4,
+body.rick-roll h5,
+body.rick-roll h6,
+body.rick-roll pre,
+body.rick-roll form,
+body.rick-roll body,
+body.rick-roll html,
+body.rick-roll p,
+body.rick-roll blockquote,
+body.rick-roll fieldset,
+body.rick-roll input,
+body.rick-roll iframe,
+body.rick-roll img {
+  font-family: Arial, Helvetica, sans-serif;
 }
