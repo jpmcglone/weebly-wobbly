@@ -19,9 +19,9 @@ jQuery(function($) {
 
 	function changeCssHere(string) {
 		if (string == 'wobbly8bit') {
-			changer('eight-bit', null, null);
+			changer('eight-bit', changes8Bit);
 		} else if (string == 'wobblyrickroll') {
-			changer('rick-roll', null, null);
+			changer('rick-roll', changesRR);
 		}
 	}
 

@@ -24,7 +24,6 @@ var classNameCallback = function(currentValue) {
   var temp = jQuery(currentValue)
   temp.removeClass(oldTheme)
   temp.addClass(themeName)
-  console.log('result', temp)
 }
 /*
  * Takes a theme name and performs transformations to the current page
