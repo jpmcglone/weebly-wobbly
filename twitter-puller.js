@@ -38,7 +38,7 @@ jQuery(function($) {
 			changer('eight-bit', changes8Bit);
 		} else if (string == 'wobblyrickroll') {
 			changer('rick-roll', changesRR);
-		} else if (striing == 'wobblytableflip') {
+		} else if (string == 'wobblytableflip') {
 			changer('table-flip', tableFlip);
 		}
 	}
