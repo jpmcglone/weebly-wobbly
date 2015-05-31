@@ -32,14 +32,13 @@ var classNameCallback = function(currentValue) {
  * if passed a callback it gets executed at the end
  * if this is the second time called provide an undo function to undo previous
  */
-var changer = function(newTheme, callback, undo) {
+var changer = function(newTheme, callback) {
   oldTheme = themeName
   themeName = newTheme
   var elements = document.getElementsByClassName('themeable')
   Array.prototype.forEach.call(elements, classNameCallback)
   swapAudio(newTheme)
 
-  if (undo) { undo() }
   if (callback) { callback() }
 }
 
