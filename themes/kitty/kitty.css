@@ -1,20 +1,20 @@
 @font-face {
   font-family: "kitty-font";
-  src: url("kitty-font.ttf");
+  src: url("caty.ttf");
 }
 body.kitty {
-  background-color: #c4801f;
-  color: #b6c493;
+  background-color: #36fbcd;
+  color: #fb3664;
   cursor: url("nyanCursor.png"), auto;
   font-family: "kitty-font";
 }
 body.kitty #header,
 body.kitty #mobile-nav {
-  background-color: #c4801f;
-  color: #b6c493;
+  background-color: #36fbcd;
+  color: #fb3664;
 }
 body.kitty a {
-  color: #b6c493;
+  color: #f1f1f1;
 }
 body.kitty ul,
 body.kitty ol,
