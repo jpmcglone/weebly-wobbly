@@ -3,7 +3,7 @@
  */
 var changes_8bit = function() {
   $('body').append('<img style="position: fixed; width: 200px; height: 200px; right: 0"' +
-                   'src="files/theme/images/dundundun.gif">')
+                   'class="eight-bit" src="files/theme/images/dundundun.gif">')
 }
 var undo_8bit = function() {
   $('img.eight-bit').remove()
