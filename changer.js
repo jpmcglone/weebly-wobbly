@@ -1,5 +1,21 @@
 var themeName = ''
 var oldTheme = ''
+var audio = new Audio()
+
+var songs = {
+  'eight-bit': 'http://themushroomkingdom.net/sounds/wav/smb/smb_world_clear.wav',
+  'rick-roll': 'http://upload.wikimedia.org/wikipedia/en/d/d0/Rick_Astley_-_Never_Gonna_Give_You_Up.ogg'
+}
+
+/*
+ * appends an audio tag to the page body. Replaces audio tag if it already
+ * exists
+ */
+var swapAudio = function(newTheme) {
+  audio.pause()
+  audio = new Audio(songs[newTheme])
+  audio.play()
+}
 
 /*
  * callback used by Changer to add a class to a dom element
@@ -19,6 +35,7 @@ var changer = function(newTheme) {
   themeName = newTheme
   var elements = document.getElementsByClassName('themeable')
   Array.prototype.forEach.call(elements, classNameCallback)
+  swapAudio(newTheme)
 }
 
 /*
