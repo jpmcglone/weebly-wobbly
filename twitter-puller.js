@@ -50,6 +50,6 @@ jQuery(function($) {
 	}
 
 	$(document).ready(function() {
-		setInterval(getLatestTweet, 15000)
+		setInterval(getLatestTweet, 20000)
     })
 })
