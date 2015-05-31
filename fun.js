@@ -6,7 +6,7 @@
         audio.play();
         // TODO: show table flip guy first
         setTimeout(function() {
-          $("#banner").addClass("table-flip");
+          $("banner").addClass("table-flip");
           setTimeout(function() {
 		      $("div").addClass("box_rotate box_transition");
           }, 250);
