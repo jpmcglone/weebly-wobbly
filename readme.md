@@ -6,17 +6,21 @@ a theme for weebly hackathon
 run `npm install`
 
 ### adding themes
-to add a new theme add a new stylus file under `./stylus/`
+to add a new theme add a new directory under `./themes/`
 
-e.g. `./stylus/new_theme.styl`
+e.g. `./themes/newTheme/`
 
-to compile it run `npm run stylus` from the root of this project
+Add a stylus file
 
-This will generate a `./stylus/new_theme.css` file
+e.g. `./themes/newTheme/newTheme.styl`
+
+to compile all styl files run `npm run stylus` from the root of this project
+
+This will generate a `./themes/newTheme/newTheme.css` file
 
 add an import in `main_style.css` like
 
-    @import url(stylus/new_theme.css);
+    @import url(themes/newTheme/newTheme.css);
 
 near the top after the *variables* section
 

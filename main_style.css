@@ -34,8 +34,10 @@
 }
 ------------------------------------------------------------------------------------------------------*/
 
-@import url(stylus/8-bit.css);
-@import url(stylus/rick-roll.css);
+@import url(themes/eightBit/8-bit.css);
+@import url(themes/rickRoll/rick-roll.css);
+@import url(themes/kitty/kitty.css);
+@import url(themes/tableFlip/tableFlip.css);
 
 /* Resets
 ------------------------------------------------------------------------------------------------------*/
@@ -123,10 +125,6 @@ body {
 
 .wsite-background {
   background: url($Color-background.jpg) center center / cover no-repeat;
-}
-
-.table-flip {
-  background: url('images/tableFlip.jpg');
 }
 
 #footer {

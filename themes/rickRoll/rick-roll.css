@@ -33,5 +33,5 @@ body.rick-roll img {
   font-family: Arial, Helvetica, sans-serif;
 }
 body.rick-roll #banner .banner-content {
-  background-image: url("../images/rickroll.gif");
+  background-image: url("rickroll.gif");
 }
