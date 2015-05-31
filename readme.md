@@ -32,4 +32,4 @@ save.
 Assuming you have the [weeblybundler gem](http://themehack.weebly.com/weebly-bundler-gem.html)
 installed
 
-run `weeblybundle theme /Path/To/Theme/Folder --publish`
+run `weeblybundle theme . --publish`

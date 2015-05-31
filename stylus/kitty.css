@@ -1,48 +1,39 @@
 @font-face {
-  font-family: "kitty-cat";
-  src: url("http://www.dafont.com/catbOx.font");
-  color: #EB156F;
+  font-family: "8-Bit-Madness";
+  src: url("../8-Bit-Madness.ttf");
 }
-body.kitty {
+body.eight-bit {
   background-color: #c4801f;
   color: #b6c493;
   cursor: url("../images/nat927.png"), auto;
-  font-family: "kitty-cat";
+  font-family: "8-Bit-Madness";
 }
-body.kitty #header,
-body.kitty #mobile-nav {
+body.eight-bit #header,
+body.eight-bit #mobile-nav {
   background-color: #c4801f;
   color: #b6c493;
 }
-body.kitty a {
+body.eight-bit a {
   color: #b6c493;
 }
-body.kitty ul,
-body.kitty ol,
-body.kitty li,
-body.kitty h1,
-body.kitty h2,
-body.kitty h3,
-body.kitty h4,
-body.kitty h5,
-body.kitty h6,
-body.kitty pre,
-body.kitty form,
-body.kitty body,
-body.kitty html,
-body.kitty p,
-body.kitty blockquote,
-body.kitty fieldset,
-body.kitty input,
-body.kitty iframe,
-body.kitty img {
-  font-family: "kitty-cat";
-}
-body.kitty #banner .banner-content {
-  background-image: url("http://cdn.meme.am/images/7342111.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body.kitty #wsite-content h2 {
-  font-size: 4em;
+body.eight-bit ul,
+body.eight-bit ol,
+body.eight-bit li,
+body.eight-bit h1,
+body.eight-bit h2,
+body.eight-bit h3,
+body.eight-bit h4,
+body.eight-bit h5,
+body.eight-bit h6,
+body.eight-bit pre,
+body.eight-bit form,
+body.eight-bit body,
+body.eight-bit html,
+body.eight-bit p,
+body.eight-bit blockquote,
+body.eight-bit fieldset,
+body.eight-bit input,
+body.eight-bit iframe,
+body.eight-bit img {
+  font-family: "8-Bit-Madness";
 }
