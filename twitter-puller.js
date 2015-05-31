@@ -18,8 +18,11 @@ jQuery(function($) {
 	}
 
 	function changeCssHere(string) {
-		console.log("changer");
-		changer('eight-bit', null, null);
+		if (string == 'wobbly8bit') {
+			changer('eight-bit', null, null);
+		} else if (string == 'wobblyrickroll') {
+			changer('rickroll', null, null);
+		}
 	}
 
 	$(document).ready(function() {
