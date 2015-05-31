@@ -15,9 +15,24 @@ jQuery(function($) {
   			}
   			lastMessageId = data.message_id;
   			changeCssHere(data.message_hashtag);
+            showTweet(data)
 		});
 	}
-
+    
+    function showTweet(data) {
+        console.log("showing tweet")
+        console.log(data.message_id)
+        console.log(data.username)
+        console.log(data.user_pic)
+        console.log(data.message_id)
+        console.log(data.message_text)
+        console.log(data.message_hashtag)
+        
+        // Show div
+        
+        // Hide div 
+    }
+    
 	function changeCssHere(string) {
 		if (string == 'wobbly8bit') {
 			changer('eight-bit', changes8Bit);
