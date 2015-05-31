@@ -3,8 +3,8 @@ jQuery(function($) {
 	var lastMessageId;
 
 	// The stuff from data is username, message_id, message_text, user_pic, and message_hashtag
-	// The allowed hashtags are 'wobblycats', 'wobblyrickroll', 'wobblytableflip', 
-	// 'wobbly8bit', 'wobblyallyourbase'
+	// The allowed hashtags are 'wobblykitty', 'wobblyrickroll', 'wobblytableflip', 
+	// 'wobbly8bit'
 	function getLatestTweet() {
 		$.get( "https://quiet-bastion-3290.herokuapp.com/twitter_puller", function( data ) {
 			console.log(data.message_hashtag)
@@ -39,6 +39,8 @@ jQuery(function($) {
 			changer('rick-roll', changesRR)
 		} else if (string == 'wobblytableflip') {
 			changer('table-flip', tableFlip)
+		} else if (string == 'wobblykitty') {
+			changer('kitty', changesKitty)
 		}
 		//604868162220228600
 		// twttr.widgets.createTweet('463440424141459456', document.getElementById('twitbox')).then( function( el ) {
