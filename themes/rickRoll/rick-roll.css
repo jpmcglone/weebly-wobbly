@@ -1,15 +1,15 @@
 body.rick-roll {
-  background-color: #decc80;
-  color: #c83018;
+  background-color: #b0a9d3;
+  color: #272a23;
   font-family: Arial, Helvetica, sans-serif;
 }
 body.rick-roll #header,
 body.rick-roll #mobile-nav {
-  background-color: #decc80;
-  color: #c83018;
+  background-color: #b0a9d3;
+  color: #272a23;
 }
 body.rick-roll a {
-  color: #decc80;
+  color: #f1f1f1;
 }
 body.rick-roll ul,
 body.rick-roll ol,

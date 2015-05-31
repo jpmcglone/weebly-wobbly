@@ -12,7 +12,7 @@ var changesRR = function() {
   audio.play()
 
   $('body').append('<marquee id="giant-head" behavior="scroll" direction="left">' +
-    '<img src="http://31.media.tumblr.com/c4b03d9214b2f1cb506b5fc2d7d0deb7/tumblr_mgktubqPt51r933bpo1_400.gif" width="600" alt="rickface">' +
+    '<img src="http://31.media.tumblr.com/c4b03d9214b2f1cb506b5fc2d7d0deb7/tumblr_mgktubqPt51r933bpo1_400.gif" width="400" alt="rickface">' +
   '</marquee>')
   window.setTimeout(undoRR, 15000)
 }
