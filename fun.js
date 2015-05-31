@@ -11,7 +11,7 @@
 		      $("div").addClass("box_rotate box_transition");
           }, 250);
         }, 3750);
-    window.setTimeout(undoTableFlip, 15000);
+    window.setTimeout(undoTableFlip, 10000);
 	}
     
     var undoTableFlip = function() {
