@@ -18,7 +18,8 @@ jQuery(function($) {
 	}
 
 	function changeCssHere(string) {
-		console.log(string);
+		console.log("changer");
+		changer('eight-bit', null, null);
 	}
 
 	$(document).ready(function() {
