@@ -1,6 +1,6 @@
 @font-face {
   font-family: "kitty-font";
-  src: url("kitty-font.tff");
+  src: url("kitty-font.ttf");
 }
 body.kitty {
   background-color: #c4801f;
