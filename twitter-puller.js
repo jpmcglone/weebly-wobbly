@@ -19,9 +19,10 @@ jQuery(function($) {
 	}
 
   function showTweet(data) {
-    console.log("show tweet")
+    console.log("show tweet");
 
-    $('body').append('<marquee id="twitter-user" behavior="scroll" direction="left" scrollamount="9" style="color: dodgerblue; text-transform: uppercase; font-size: 45px; font-weight: bold; margin-bottom: 30px;">' + 
+    $('body').append('<marquee id="twitter-user" behavior="scroll" direction="left" scrollamount="9"' + 
+    	'style="color: dodgerblue; text-transform: uppercase; font-size: 45px; font-weight: bold; position: fixed; bottom: 20px;">' + 
     	"@" + data.username + " tweeted: " + data.message_text + '</marquee>');
 
     	// '<div id="twitter-user" style="position: fixed; left: 0; bottom: 10px; width: 300px; height: 50px; font-size: 30px;">' +
@@ -50,10 +51,5 @@ jQuery(function($) {
 
 	$(document).ready(function() {
 		setInterval(getLatestTweet, 10000)
-		// twttr.ready(
-  // 			function (twttr) {
-  //   			twttr.widgets.load();
-  // 			}
-		// );
     })
 })
