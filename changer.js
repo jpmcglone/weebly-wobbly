@@ -30,14 +30,16 @@ var classNameCallback = function(currentValue) {
  * Takes a theme name and performs transformations to the current page
  * it ensures the relevant DOM elements have the proper css classNames
  * if passed a callback it gets executed at the end
+ * if this is the second time called provide an undo function to undo previous
  */
-var changer = function(newTheme, callback) {
+var changer = function(newTheme, callback, undo) {
   oldTheme = themeName
   themeName = newTheme
   var elements = document.getElementsByClassName('themeable')
   Array.prototype.forEach.call(elements, classNameCallback)
   swapAudio(newTheme)
 
+  if (undo) { undo() }
   if (callback) { callback() }
 }
 
