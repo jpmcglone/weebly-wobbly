@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "kitty-cat";
+  src: url("http://www.dafont.com/catbOx.font");
+  color: #EB156F;
+}
+body.kitty {
+  background-color: #c4801f;
+  color: #b6c493;
+  cursor: url("../images/nat927.png"), auto;
+  font-family: "kitty-cat";
+}
+body.kitty #header,
+body.kitty #mobile-nav {
+  background-color: #c4801f;
+  color: #b6c493;
+}
+body.kitty a {
+  color: #b6c493;
+}
+body.kitty ul,
+body.kitty ol,
+body.kitty li,
+body.kitty h1,
+body.kitty h2,
+body.kitty h3,
+body.kitty h4,
+body.kitty h5,
+body.kitty h6,
+body.kitty pre,
+body.kitty form,
+body.kitty body,
+body.kitty html,
+body.kitty p,
+body.kitty blockquote,
+body.kitty fieldset,
+body.kitty input,
+body.kitty iframe,
+body.kitty img {
+  font-family: "kitty-cat";
+}
+body.kitty #banner .banner-content {
+  background-image: url("http://cdn.meme.am/images/7342111.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body.kitty #wsite-content h2 {
+  font-size: 4em;
+}
