@@ -6,23 +6,29 @@ a theme for weebly hackathon
 run `npm install`
 
 ### adding themes
-to add a new theme add a new directory under `./themes/`
+To add a new theme follow this directory structure
 
-e.g. `./themes/newTheme/`
+    themes/
+      newTheme/         - place theme under `/themes`
+        fontFile.ttf
+        newTheme.js     - core font logic (audio, dom manipulations, etc.)
+        image.jpg
+        newTheme.styl   - styling
+        music.ogg
 
-Add a stylus file
+This project uses the Stylus preprocessor to generate our css files.
 
-e.g. `./themes/newTheme/newTheme.styl`
+Make sure to register the stylesheet
 
-to compile all styl files run `npm run stylus` from the root of this project
-
-This will generate a `./themes/newTheme/newTheme.css` file
-
-add an import in `main_style.css` like
-
+    // ./main_style.css
     @import url(themes/newTheme/newTheme.css);
 
-near the top after the *variables* section
+Then register the logic
+
+    // ./short-header.html
+    <script type="text/javascript" src="/files/theme/themes/newTheme/newTheme.js"></script>
+
+Add a clause in the `changeCssHere` method inside `./twitter-puller.js`
 
 ### development server
 
@@ -36,4 +42,8 @@ save.
 Assuming you have the [weeblybundler gem](http://themehack.weebly.com/weebly-bundler-gem.html)
 installed
 
-run `weeblybundle theme . --publish`
+`npm run deploy`
+
+### TODO
+
+- configure npm task for offline development
